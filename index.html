@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jerome | Portfolio</title>
+  <!-- ✅ Supabase CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -38,23 +40,23 @@
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="about">
+<!-- ✅ Changed class from "about" to "contact" -->
+<section id="contact" class="contact">
   <h2>Contact</h2>
-  <p>Instagram: <a href="https://instagram.com/" target="_blank">@your_id</a></p>
+  <p>Instagram: <a href="https://instagram.com/your_real_id" target="_blank">@your_id</a></p>
   <p>Email: yourmail@gmail.com</p>
 </section>
 
 <!-- FEEDBACK -->
 <section id="feedback">
   <h2>Feedback</h2>
-
   <form id="feedbackForm">
     <input type="text" id="name" placeholder="Your Name" required>
     <input type="email" id="email" placeholder="Your Email" required>
     <textarea id="message" placeholder="Your Message" required></textarea>
-    <button class="btn">Submit</button>
+    <!-- ✅ Added type="submit" -->
+    <button type="submit" class="btn">Submit</button>
   </form>
-
   <div id="feedbackList"></div>
 </section>
 
