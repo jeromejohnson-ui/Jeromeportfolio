@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerome | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2 class="logo">Je<span>rome</span></h2>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#feedback">Feedback</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <img src="myphoto.jpg" class="hero-img">
+    <h1 class="hero-name">Jerome</h1>
+    <p class="hero-title">BCA Cloud Computing Student</p>
+    <button class="btn" onclick="scrollToSection()">Explore</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am Jerome, a passionate BCA student specializing in Cloud Computing. 
+    I am interested in full stack development, cloud technologies, and modern web applications.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="about">
+  <h2>Contact</h2>
+  <p>Instagram: <a href="https://instagram.com/" target="_blank">@your_id</a></p>
+  <p>Email: yourmail@gmail.com</p>
+</section>
+
+<!-- FEEDBACK -->
+<section id="feedback">
+  <h2>Feedback</h2>
+
+  <form id="feedbackForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button class="btn">Submit</button>
+  </form>
+
+  <div id="feedbackList"></div>
+</section>
+
+<footer>
+  <p>© 2026 Jerome Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
