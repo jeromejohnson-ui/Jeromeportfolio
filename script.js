@@ -4,8 +4,8 @@ function scrollToSection() {
 }
 
 // 🔥 SUPABASE CONFIG
-const SUPABASE_URL = "https://YOUR_PROJECT_ID.supabase.co";
-const SUPABASE_KEY = "YOUR_PUBLIC_ANON_KEY";
+const SUPABASE_URL = "https://bvvthjidmopoqnpaqwxv.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ2dnRoamlkbW9wb3FucGFxd3h2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ0MDQyODQsImV4cCI6MjA4OTk4MDI4NH0.wiQxDCBWs5il6ynQWO0j0Ses9KxYDVmlijgzHhJMc1w";
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
