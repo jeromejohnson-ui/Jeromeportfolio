@@ -1,0 +1,113 @@
+/* THEME */
+:root {
+  --primary: #ef4444;
+  --primary-light: #f87171;
+  --bg: #000;
+  --card: #0a0a0a;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: var(--bg);
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: black;
+}
+
+.logo span {
+  color: var(--primary);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid var(--primary);
+}
+
+.hero-name {
+  color: var(--primary);
+  font-size: 40px;
+}
+
+.hero-title {
+  margin: 10px 0;
+  color: gray;
+}
+
+/* BUTTON */
+.btn {
+  background: var(--primary);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: var(--primary-light);
+}
+
+/* SECTIONS */
+.about, #feedback {
+  padding: 60px;
+}
+
+h2 {
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+/* FORM */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #111;
+  border: none;
+  color: white;
+}
+
+/* FEEDBACK CARD */
+.feedback-card {
+  background: var(--card);
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 4px solid var(--primary);
+}
